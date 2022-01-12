@@ -1,0 +1,1123 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<meta http-equiv='Expires' content='0'>
+<meta http-equiv='Cache-Control' content='no-cache, must-revalidate'>
+<meta http-equiv='Pragma' content='no-cache'>
+<title>Faturamento</title>
+    <style type='text/css'>
+<!--
+.style1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #006699;
+}
+.style2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+.style13 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; }
+body,td,th {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+}
+.style14 {
+    font-size: 14pt
+}
+.style16 {color: #003399; }
+-->
+</style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/fixedheader.js"></script>
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function() {  
+        $("#tbl_faturamento").fixedtableheader({ highlightrow: true, headerrowsize: 1 });
+    });
+
+</script>
+
+</head>
+
+<body>
+<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+  <tr>
+    
+    
+    <td width='76%' height='50' colspan=12><div align='center' class='style1'>
+      <p class='style14'>Faturamento<br/></p>
+          </div></td>
+
+    
+  </tr>
+</table>
+<p>&nbsp; </p>
+
+<table id="tbl_faturamento" width='100%' border='1' cellpadding='0' cellspacing='0' bordercolor='#EEEEEE'>
+    
+    <tr>
+        <td nowrap='nowrap' bgcolor='#CCCCFF'><div align='center' class='style16'><span class='style13'>DATA PEDIDO</span></div></td>
+        <td nowrap='nowrap' bgcolor='#CCCCFF'><div align='center' class='style16'><span class='style13'>PEDIDO</span></div></td>
+        <td nowrap='nowrap' bgcolor='#CCCCFF'><div align='center' class='style16'><span class='style13'>TIPO PEDIDO </span></div></td>
+        <td nowrap='nowrap' bgcolor='#CCCCFF'><div align='center' class='style16'><span class='style13'>TOTAL CAIXAS</span></div></td>
+        <td nowrap='nowrap' bgcolor='#CCCCFF'><div align='center' class='style16'><span class='style13'>TOTAL PEÇAS</span></div></td>
+    </tr>
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708752</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>15</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>150</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708762</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>39</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>402</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709509</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>10</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704389</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>31</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>626</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709507</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>17</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709709</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708900</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>45</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709601</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059712116</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059712115</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>107</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709489</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708897</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>17</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708023</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>25</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708762</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>8</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>573</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059713983</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>110</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059706746</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>17</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>385</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708023</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>58</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708904</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059712118</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>203</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708932</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708935</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709600</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709121</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>17</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>288</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709497</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>32</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708821</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>47</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1386</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059710827</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>109</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059706746</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>10</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>220</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708920</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708927</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059710332</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>27</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708895</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>58</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708899</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>12</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709601</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709488</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709508</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>26</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059712120</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>20</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709711</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709592</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704793</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>49</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709501</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>44</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059710324</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>96</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059711105</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>8</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>440</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704401</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>112</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708909</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>45</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708017</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708908</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>14</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709600</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708017</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>7</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708903</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>17</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708916</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>101</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708927</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>39</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059710324</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>25</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>126</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059711105</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>29</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>326</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704904</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>8</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>183</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059712117</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>211</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709682</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>29</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709487</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708922</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>250</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708906</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>14</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059707821</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>56</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709491</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>12</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708899</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709121</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>12</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059705804</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>935</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708924</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708907</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>45</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708930</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708935</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>58</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708911</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>4</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>90</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709708</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>16</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708821</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>54</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709502</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709590</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704401</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>15</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>268</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704918</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>58</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709523</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>11</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>550</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708832</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>100</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709688</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709603</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>20</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708904</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>12</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708905</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>45</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709678</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059712119</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708924</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>46</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709489</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>14</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>14</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709505</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>2</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>25</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059710829</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>208</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059704389</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>11</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>617</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709603</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>11</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>210</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708937</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708902</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>3</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>57</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709696</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>164</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709504</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>17</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059708939</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Detail</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5</span></div></td>
+        </tr>
+
+
+
+    
+        <tr bgcolor='#FFFFFF'>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>19/02/2020</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>5059709592</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>Fullcase</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>1</span></div></td>
+            <td nowrap='nowrap' bgcolor='#F7F3F3'><div align='center' class='style16'><span class='style13'>6</span></div></td>
+        </tr>
+
+
+
+                                                                                                                                
+
+    <tr>
+        <td nowrap='nowrap' bgcolor='#CCCCFF' colspan="3" ><div align='center' class='style16'><span class='style13'>TOTAIS</b></span></div></td>
+        <td nowrap='nowrap' bgcolor='#CCCCFF' ><div align='center' class='style16'><span class='style13'><b>465</b></span></div></td>
+        <td nowrap='nowrap' bgcolor='#CCCCFF' ><div align='center' class='style16'><span class='style13'><b>10810</b></span></div></td>
+    </tr>
+
+</table>
