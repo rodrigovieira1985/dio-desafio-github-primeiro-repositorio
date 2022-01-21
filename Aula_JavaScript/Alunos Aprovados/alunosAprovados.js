@@ -14,6 +14,11 @@ const alunos = [
 		nota: 6,
 		turma: '2C',
 	},
+	{
+		nome: 'Beth',
+		nota: 2,
+		turma: '2C',
+	},
 ];
 
 function alunosAprovados(alunos, media) {
